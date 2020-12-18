@@ -15,6 +15,10 @@ h1{
   text-align: center;
   margin: 1%;
 }
+
+section{
+  margin-left:2%;
+}
 main{
   display: flex;
   flex-wrap: wrap;
@@ -30,6 +34,8 @@ main{
 .card{
   margin: 0.5%;
   padding: 1%;
+  background-color:whit;
+ 
 }
 
 img{
