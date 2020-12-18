@@ -9,3 +9,36 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+header,
+h1{
+  text-align: center;
+  margin: 1%;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ footer{
+   width: 100vw;
+   height: 30vh;
+   margin: 1%
+   
+ }
+
+.card{
+  margin: 0.5%;
+  padding: 1%;
+}
+
+img{
+  width: 250px;
+}
+
+input{
+  width: 70px;
+}
+.d-none{
+  display: none;
+}
