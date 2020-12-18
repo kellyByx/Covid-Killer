@@ -46,8 +46,6 @@ function render() {
       resumeCommande += `
         <p> Vaccin : ${vaccins[j].nom} </p>
         `;
-
-      // resumeCommande += quantiteInput;
     }
   }
   resumeCommande += `

@@ -46,26 +46,51 @@ AJAX (viens de : JavaScript And Xml). C'est ce qui peut permettre (au développe
 
 - Pourquoi JavaScript est parfois mal-aimé des devs ? **(s)**
 Parce que c’est un langage plus « libre » et moins strict :
-Par exemple au niveau de types en javascript est moins strict que C#. Javascript est même un peu trop gentil et nous aide automatiquement et cela peut nous créer des erreurs.  Tout comme la liberté de ne pas obligatoirement devoir mettre de « ; » peuvent nous faire regretter cette liberté plus tard lorsque des bug et erreur vont survenir. 
+Par exemple au niveau de types en javascript est moins strict (faiblement typé) que le langage C#. Javascript est même un peu trop gentil et nous aide automatiquement et cela peut nous créer des erreurs.  Tout comme la liberté de ne pas obligatoirement devoir mettre de « ; » peuvent nous faire regretter cette liberté plus tard lorsque des bug et erreur vont survenir. 
 Peut-être aussi car les class existe en javascript (depuis peu) mais ce n’est qu’un raccourci vers le mot clé fonction, ce qui peut déranger certains développer qui aime moins le fait de travailler qu’avec des fonctions (car en javascript tout se fait avec des fonctions = langage fonctionnel, pas orienté objet).
 
   
 - Y a-t-il des types en JavaScript ? Si oui, lesquels ?
-  Oui il existe les type dit primitif : booléen (vrai-faux), string (caractères/textes), number (nombre)
+  Oui il existe :
+  le type dit primitif : booléen (vrai-faux), string (caractères/textes), number (nombre)
+  le type de valeur vide: undefined, Nan, null.
+  et le type dit composé tel que les objet, les arrays,...
   
 - Est-ce que SASS est un langage qui est interprété par les navigateurs ?
-  Non, le navigateur n'accepte que du HTML,CSS et du Javascript. Mais quand nous utilisons sass celui-ci peut etre "converti" en css et la nous auront notre style qui apparaitra sur le site.
+   Non, le navigateur n'accepte / ne travaille qu’avec du HTML, CSS et Javascript. (Mais quand nous utilisons SASS celui-ci peut être "converti" en css et là nous auront notre style qui apparaitra sur le site)
 
 - Pourquoi peut-on dire que JavaScript est un langage "multi-paradigmes" ? **(s)**
-  
+  Car il est principalement fonctionnel mais depuis peut avec l'arriver des class ( meme si ce n'est qu'un racourci au mot clé function), il est donne diverse posssibilité que ce soit niveau front-end que back-end.
+
 - En JS, une fonction peut-elle retourner une fonction ?
-  Oui, le javascript un un langage dit fonctionnel
+  Oui, Car contrairement à d’autre langage en javascript on peut dire que les fonctions sont des citoyens de 1 ère classe : c’est-à-dire que les fonctions sont considérées comme une valeur comme n’importe qu’elle autre valeurs. (En informatique : ce sont ce que l’on peut traiter comme des données, des valeurs). 	
+  Ce n’est pas dans tous les langages mais dans le javascript oui, car c’est un langage fonctionnel. (Et non pas orienté objet) 
+  On peut mettre des fonctions dans des variables (c’est même leurs natures). C’est pour cela que l’on dit qu’elles sont fonctionnelles. On peut les ‘‘passer’’ de variables en variables et de fonctions en fonctions.
+
 
 - Est-ce que `alert` existe en Node.JS ?
-- 
+  Non, alert est une méthode qui appartient à l’objet window (*c’est un objet qui est déjà là dans le javascript coter navigateur plutôt dans le javascript front end. Il permet a javascript d'intéragir avec la page web). 
+  C’est une fonction qui nous est donner pour réaliser diverse choses dans le navigateur.
+  Mais ce n’est pas un mot clé de Javascript.
+  C’est assez confusant car l’on peut dans la console du navigateur écrire alerte pour l’exécuter mais pas l’inverse dans la console via node.Js.
+  Window va permettre d’écrire dans le navigateur. Et en général on ne cite plus window tellement il est omni présent.
+  Lorsque que l’on note par exemple alert(‘‘ panda’’) ; cela est pareil que de noter : window.alert(‘‘ panda’’) ;
+
+ 
 - Est-ce que `window.console.log === console.log` dans le navigateur ?
-- 
+  Oui, car comme dans la question précédente ( alert) : console.log est ‘‘une méthode’’ qui appartient à l’objet window*. Sauf qu’ici console est aussi un objet qui a elle une méthode log. Ce qui va nous permettre de loguer dans la console (/ d’écrire dans le navigateur).
+  Ce n’est de nouveau pas un mot clé de Javascript (comme les ifs/ for par exemple).
+( On peut le vérifier si on fait le test de faire :
+  console.log (window.console.log === console.log) 
+  Cela va bien renvoyer true)
+
+  
 - Quel est votre aspect préféré de JavaScript ? **(s)**
+  Le javascript me parait plus (re)-lisible que d’autre langage :
+  En javascript lorsque l’on utilise des fonctions le code me parait plus facilement (re-) lisible comparé a d’autre langage et même plus facile à comprendre. 
+  Ce qui aide aussi à mes yeux cette relecture c’est « des bases » qui me semble moins lourde (en quantité) à connaître pour pouvoir faire des choses simples en javascript comparé a d’autre langage ou l’on doit énormément apprendre d’éléments avant de pouvoir créer même un petit chose simple. (Plus le fait que c’est un langage peu typé même si cela peut amener a des erreurs)
+  (+ Évidement étant graphiste, j’aime le fait qu’avec javascript (tout comme html et css) qu’ il donne des résultats visuels)
+
 
 ## Épreuve pratique sur 80pts
 Vous êtes codeuse/codeur JavaScript dans une clinique du centre-ville.
