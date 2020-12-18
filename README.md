@@ -60,7 +60,8 @@ Peut-être aussi car les class existe en javascript (depuis peu) mais ce n’est
    Non, le navigateur n'accepte / ne travaille qu’avec du HTML, CSS et Javascript. (Mais quand nous utilisons SASS celui-ci peut être "converti" en css et là nous auront notre style qui apparaitra sur le site)
 
 - Pourquoi peut-on dire que JavaScript est un langage "multi-paradigmes" ? **(s)**
-  Car il est principalement fonctionnel mais depuis peut avec l'arriver des class ( meme si ce n'est qu'un racourci au mot clé function), il est donne diverse posssibilité que ce soit niveau front-end que back-end.
+  Car il est principalement fonctionnel mais depuis peut avec l'arriver des class ( meme si ce n'est qu'un racourci au mot clé function) il fait un pas à l'orenté objet.
+  De plus javascript considère les functions comme des citoyens de première classe (ce qui n'est pas les cas d'autre langages).
 
 - En JS, une fonction peut-elle retourner une fonction ?
   Oui, Car contrairement à d’autre langage en javascript on peut dire que les fonctions sont des citoyens de 1 ère classe : c’est-à-dire que les fonctions sont considérées comme une valeur comme n’importe qu’elle autre valeurs. (En informatique : ce sont ce que l’on peut traiter comme des données, des valeurs). 	

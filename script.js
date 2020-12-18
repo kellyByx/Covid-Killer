@@ -3,9 +3,9 @@ import { vaccins } from './src/data';
 
 const app = document.querySelector('#app');
 function render() {
-// cration de la liste de card des vaccins:
+// création de la liste de cartes des vaccins:
   let vaccinsContainer = '<section>';
-  vaccinsContainer += '<h1> Nom site </h1>';
+  vaccinsContainer += '<h1>Précommande de vaccins de la clinique Jolis bois </h1>';
   vaccinsContainer += `
 <header>
     <button> Prix </button>
