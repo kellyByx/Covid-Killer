@@ -36,14 +36,35 @@ Les réponses peuvent être subjectives si il y a le signe **(s)** à la fin de 
 Vous pouvez répondre à même ce document ou dans un fichier à part.
 
 - Qu'est-ce que JavaScript vanilla ?
+   C'est lorsque que l'on réalise en code purement/simplement composer en javascript, sans devoir utiliser de Framework ou de librairie en complément pour que celui-ci soit fonctionnel.
+  (Par exemple sans devoir télécharger JQuery). C'est un code qui fonctionne à lui seul, juste coder dans le langage javascript ("de base"). 
+  Le fait d'utiliser le terme "javascript vanilla" permet d'être plus clair lorsque l'on veut parler de code javascript sans Framework ou dans ses recherches de trouver du code entièrement en javascript. (car beaucoup trop de résultat cache en fait a la fin un bibliothèque a télécharger pour faire fonctionner ce que l'on souhaite réaliser)
+
+
 - Qu'est-ce qu'AJAX ?
+AJAX (viens de : JavaScript And Xml). C'est ce qui peut permettre (au développeur qui utilise javascript) de faire en sorte qu'une partie du contenu/une partie d'une page d'un site web puisse s'actualiser sans que toute la page du site doive elle aussi s'actualiser à chaque fois que cet élément doit l'être. Ce contenu réagis généralement avec les actions d'un utilisateur. 
+
 - Pourquoi JavaScript est parfois mal-aimé des devs ? **(s)**
+Parce que c’est un langage plus « libre » et moins strict :
+Par exemple au niveau de types en javascript est moins strict que C#. Javascript est même un peu trop gentil et nous aide automatiquement et cela peut nous créer des erreurs.  Tout comme la liberté de ne pas obligatoirement devoir mettre de « ; » peuvent nous faire regretter cette liberté plus tard lorsque des bug et erreur vont survenir. 
+Peut-être aussi car les class existe en javascript (depuis peu) mais ce n’est qu’un raccourci vers le mot clé fonction, ce qui peut déranger certains développer qui aime moins le fait de travailler qu’avec des fonctions (car en javascript tout se fait avec des fonctions = langage fonctionnel, pas orienté objet).
+
+  
 - Y a-t-il des types en JavaScript ? Si oui, lesquels ?
+  Oui il existe les type dit primitif : booléen (vrai-faux), string (caractères/textes), number (nombre)
+  
 - Est-ce que SASS est un langage qui est interprété par les navigateurs ?
+  Non, le navigateur n'accepte que du HTML,CSS et du Javascript. Mais quand nous utilisons sass celui-ci peut etre "converti" en css et la nous auront notre style qui apparaitra sur le site.
+
 - Pourquoi peut-on dire que JavaScript est un langage "multi-paradigmes" ? **(s)**
+  
 - En JS, une fonction peut-elle retourner une fonction ?
+  Oui, le javascript un un langage dit fonctionnel
+
 - Est-ce que `alert` existe en Node.JS ?
+- 
 - Est-ce que `window.console.log === console.log` dans le navigateur ?
+- 
 - Quel est votre aspect préféré de JavaScript ? **(s)**
 
 ## Épreuve pratique sur 80pts
